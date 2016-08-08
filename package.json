@@ -1,0 +1,31 @@
+{
+  "name": "observ-set",
+  "version": "1.0.0",
+  "description": "A Set like structure that's observable",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "observ": "^0.2.0",
+    "tape": "^4.6.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/emilbayes/observ-set.git"
+  },
+  "keywords": [
+    "observ",
+    "set",
+    "hash",
+    "hash-set",
+    "observable"
+  ],
+  "author": "Emil Bay <github@tixz.dk>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emilbayes/observ-set/issues"
+  },
+  "homepage": "https://github.com/emilbayes/observ-set#readme"
+}
