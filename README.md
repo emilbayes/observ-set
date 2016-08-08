@@ -89,3 +89,7 @@ Returns an iterator from a copy of the values contained in the set.
 ### `set.transaction(callback)`
 
 `callback(rawSet)` is passed a Set-like object that you can safely mutate without notifying listeners before the transaction is over. If no mutations are made, the listeners will not be notified. Transactions can be canceled by returning `false`.
+
+## License
+
+[ISC](LICENSE.md)
