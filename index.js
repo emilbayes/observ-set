@@ -100,6 +100,8 @@ function _add (observ) {
 function _clear () {
   this._keys = []
   this._values = []
+  
+  return true
 }
 
 function _delete (observ) {
